@@ -1,0 +1,8 @@
+{
+  "variants":{
+    "facing=north": {"model": "basic_machines:block/crusher"},
+    "facing=east":  {"model": "basic_machines:block/crusher", "y": 90},
+    "facing=south": {"model": "basic_machines:block/crusher", "y":180},
+    "facing=west":  {"model": "basic_machines:block/crusher", "y":270}
+  }
+}

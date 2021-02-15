@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "basicmachines",
+  "version": "${version}",
+  "name": "BasicMachines",
+  "description": "A Minecraft Mod that adds Machines",
+  "authors": [
+    "JamesofScout"
+  ],
+  "contact": {
+    "website": "jamesscout.tech"
+  },
+  "license": "MIT",
+  "icon": "assets/basicmachines/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "tech.jamesscout.basicmachines.server.BasicmachinesServer"
+    ],
+    "client": [
+      "tech.jamesscout.basicmachines.client.BasicmachinesClient"
+    ],
+    "main": [
+      "tech.jamesscout.basicmachines.Basicmachines"
+    ]
+  },
+  "mixins": [
+    "basicmachines.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
